@@ -13,3 +13,12 @@ Connect to your instance using its Public DNS:
 Example:
  ssh -i "lk-ubuntu-server.pem" ubuntu@ec2-18-208-219-13.compute-1.amazonaws.com
  ```
+### Update pip
+sudo apt update
+sudo apt install python3-pip
+
+## Create a venv
+source LK-env/bin/activate
+
+## Copy paste nemo contents
+## copy requirements.txt to LK-env
