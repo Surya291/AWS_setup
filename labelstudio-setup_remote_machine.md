@@ -1,0 +1,10 @@
+## Step 01 : Create a venv with python> 3.7
+
+```
+sudo apt update
+sudo apt install software-properties-common
+
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt install python3.9
+
+```
