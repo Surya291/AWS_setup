@@ -21,7 +21,10 @@ Test the version of python
 python3 --version
 Python 3.7.1 
 
-## Step 02 : Close a port 
+## Step 02 : Fin and closing labelstudio  ports 
 ```
+killall -i label-studio
+
+Alternative soln
 sudo kill -9 $(sudo lsof -t -i:8080)
 ```
