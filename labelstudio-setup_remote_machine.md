@@ -1,10 +1,22 @@
 ## Step 01 : Create a venv with python> 3.7
 
+To change Python 3.6.8 as the default in Ubuntu 18.04 to Python 3.7.
+Install Python 3.7
+Steps to install Python3.7 and configure it as the default interpreter.
+Install the python3.7 package using apt-get
 ```
-sudo apt update
-sudo apt install software-properties-common
-
-sudo add-apt-repository ppa:deadsnakes/ppa
-sudo apt install python3.9
-
+sudo apt-get install python3.7
 ```
+Add Python3.6 & Python 3.7 to update-alternatives
+```
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 1
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 2
+```
+Update Python 3 to point to Python 3.7
+```
+sudo update-alternatives --config python3 Enter 2 for Python 3.7
+```
+Test the version of python
+
+python3 --version
+Python 3.7.1 
