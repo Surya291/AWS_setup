@@ -23,3 +23,5 @@
 - On the instance dashboard of aws, edit the inbound rules and allow the port on which the minio server is running.
 ​
 - The minio server can now be accessed on "ip.address": port_number
+
+Try to allow a ports for http and tcp in AWS while going to security section for the respective instance.
