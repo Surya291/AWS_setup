@@ -40,3 +40,8 @@ https://stackoverflow.com/a/56094418/17231660
 sudo apt-get install fonts-indic
 ```
 https://stackoverflow.com/a/49086261/17231660
+
+## Uninstall wkhtml
+```
+sudo apt purge wkhtmltox
+```
