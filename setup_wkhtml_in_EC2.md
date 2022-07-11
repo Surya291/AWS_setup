@@ -24,3 +24,19 @@ sudo apt install ./wkhtmltox_0.12.5-1.bionic_amd64.deb
 ```
 
 Source : https://www.stephankoellen.com/blog/wkhtmltopdf-footer-and-header/#:~:text=Wkhtmltopdf%20provides%20the%20handy%20options,This%20should%20work.
+
+
+
+Install fonts (IMP !!)
+1. Normal fonts
+```
+ sudo apt-get install ttf-mscorefonts-installer
+ sudo fc-cache
+```
+https://stackoverflow.com/a/56094418/17231660
+
+2. Indic fonts 
+```
+sudo apt-get install fonts-indic
+```
+https://stackoverflow.com/a/49086261/17231660
